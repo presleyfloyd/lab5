@@ -8,7 +8,7 @@ body{color: navy;
 main{width:90%;
     max-width: 900px;
     margin:0 auto;}
-.tagline{margin-left:290px;
+.tagline{margin-left:50px;
     font-size: calc(20px + 1vw);}
 .nav-menu{background-color: lightgray;
     padding: 1.5rem;
