@@ -3,20 +3,20 @@ body{color: navy;
     background-color: whitesmoke;
     margin:0;
     padding:0;
-    font-size: calc(14px+.03vw);
+    font-size: calc(14px + .03vw);
     line-height:1.5;}  
 main{width:90%;
     max-width: 900px;
     margin:0 auto;}
 .tagline{margin-left:290px;
-    font-size: calc(20px+1vw);}
+    font-size: calc(20px + 1vw);}
 .nav-menu{background-color: lightgray;
     padding: 1.5rem;
     text-align: left;}
 .nav-menu li{list-style-type: none;
     display: inline;
     padding: 0 1rem;
-    font-size: calc(18px+0.5vw);}
+    font-size: calc(18px + 0.5vw);}
 a {color: navy;
     text-decoration: none;}
 h1 { color: midnightblue;}
@@ -26,14 +26,13 @@ h3 {color: rgb(61, 83, 225);}
     margin:1rem;
     font-weight:bold;}
 .flex-photo
-    {display:flex;
+    {display: flex;
     gap: 10px;
-    flex-wrap:wrap;
-    align-items:flex-start;}
+    flex-wrap: wrap;}
 .flex-photo img
-   {height: 300px;
-    width:auto;
-    object-fit:cover;}
+    {height: 25vw;          
+    max-height: 300px;     
+    width: auto;}
 .lists-container
     {display:flex;
     gap: 40px;
